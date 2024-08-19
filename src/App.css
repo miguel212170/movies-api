@@ -1,0 +1,64 @@
+/* MovieTest stuff. */
+.junk {height:60px}
+.movie-poster {color:white}
+.movie-marquee {padding:2px; background-color:#cccccc; border: 3px solid black}
+.marquis-container {width:100%}
+.card.movie-poster {background-color: #888888; border: 1px solid white; padding:5px; height:600px}
+.movie-poster img {max-width:80%}
+.poster-section {height: 90%}
+.description-section {height: 10%}
+/*
+Bootstrap CSS Breakpoint Sizes
+Extra small: xs – 480px.
+Small: sm – 768px.
+Medium: md – 992px.
+Large: lg – 1200px.
+*/
+@media only screen and (min-width: 768px)
+{
+	.card.movie-poster {height:500px}
+	.marquis-container {width:85%}
+}
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
